@@ -1,0 +1,19 @@
+{
+  "unversionedId": "local-storage",
+  "id": "local-storage",
+  "title": "Local Storage Module",
+  "description": "Introduction",
+  "source": "@site/docs/local-storage.md",
+  "sourceDirName": ".",
+  "slug": "/local-storage",
+  "permalink": "/docs/local-storage",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/local-storage.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Local Disk Manager (LDM)",
+    "permalink": "/docs/local-disk-manager"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "facebook": {
+    "allTagsPath": "/cn/blog/tags",
+    "name": "facebook",
+    "count": 1,
+    "permalink": "/cn/blog/tags/facebook"
+  },
+  "hello": {
+    "allTagsPath": "/cn/blog/tags",
+    "name": "hello",
+    "count": 2,
+    "permalink": "/cn/blog/tags/hello"
+  },
+  "docusaurus": {
+    "allTagsPath": "/cn/blog/tags",
+    "name": "docusaurus",
+    "count": 4,
+    "permalink": "/cn/blog/tags/docusaurus"
+  },
+  "hola": {
+    "allTagsPath": "/cn/blog/tags",
+    "name": "hola",
+    "count": 1,
+    "permalink": "/cn/blog/tags/hola"
+  }
+}
