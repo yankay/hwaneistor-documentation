@@ -1,0 +1,26 @@
+{
+  "unversionedId": "01features/03DRBD",
+  "id": "01features/03DRBD",
+  "title": "DRBD installer",
+  "description": "DRBD (Distributed Replicated Block Device) is composed of Linux kernel modules and related scripts to build high available clusters. It is implemented by mirroring the entire device over the network, which can be thought of as a kind of network RAID.",
+  "source": "@site/docs/01features/03DRBD.md",
+  "sourceDirName": "01features",
+  "slug": "/01features/03DRBD",
+  "permalink": "/docs/01features/03DRBD",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/01features/03DRBD.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "HwameiStor Scheduler",
+    "permalink": "/docs/01features/02scheduler"
+  },
+  "next": {
+    "title": "Prerequisites",
+    "permalink": "/docs/02installation/00prepare"
+  }
+}

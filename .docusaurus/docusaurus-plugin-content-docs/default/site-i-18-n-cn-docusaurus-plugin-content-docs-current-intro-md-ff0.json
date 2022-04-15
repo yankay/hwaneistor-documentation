@@ -1,8 +1,8 @@
 {
   "unversionedId": "intro",
   "id": "intro",
-  "title": "教程介绍",
-  "description": "Let's discover Docusaurus in less than 5 minutes.",
+  "title": "HwameiStor 介绍",
+  "description": "HwameiStor 将 HDD、SSD 和 NVMe 磁盘形成本地存储资源池进行统一管理，使用 CSI 架构提供分布式的本地数据卷服务，为有状态的云原生应用或组件提供数据持久化能力。",
   "source": "@site/i18n/cn/docusaurus-plugin-content-docs/current/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",
@@ -16,7 +16,7 @@
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "Create a Page",
-    "permalink": "/cn/docs/tutorial-basics/create-a-page"
+    "title": "本地存储",
+    "permalink": "/cn/docs/01features/00local-storage"
   }
 }

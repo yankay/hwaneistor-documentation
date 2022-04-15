@@ -1,0 +1,26 @@
+{
+  "unversionedId": "02Install/02install",
+  "id": "02Install/02install",
+  "title": "Independent Installation",
+  "description": "This page explains how you can independently install and deploy HwaweiStor local storage on a Kubernetes node.",
+  "source": "@site/docs/02Install/02install.md",
+  "sourceDirName": "02Install",
+  "slug": "/02Install/",
+  "permalink": "/docs/02Install/",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02Install/02install.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DRBD installer",
+    "permalink": "/docs/01features/03DRDB"
+  },
+  "next": {
+    "title": "Prerequisites",
+    "permalink": "/docs/02Install/00prepare"
+  }
+}

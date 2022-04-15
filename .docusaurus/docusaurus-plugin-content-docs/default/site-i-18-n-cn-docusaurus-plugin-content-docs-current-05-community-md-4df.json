@@ -1,0 +1,23 @@
+{
+  "unversionedId": "05community",
+  "id": "05community",
+  "title": "05community",
+  "description": "如果您对 HwameiStor 云原生本地存储系统有任何疑问，欢迎加入社区，一起开垦这块属于开发者的“元宇宙”新天地，成为未来行道者！",
+  "source": "@site/i18n/cn/docusaurus-plugin-content-docs/current/05community.md",
+  "sourceDirName": ".",
+  "slug": "/05community",
+  "permalink": "/cn/docs/05community",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/05community.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5,
+    "sidebar_label": "文档 - 社区"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "06pvc",
+    "permalink": "/cn/docs/04concepts/06pvc"
+  }
+}

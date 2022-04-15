@@ -1,0 +1,23 @@
+{
+  "unversionedId": "05community",
+  "id": "05community",
+  "title": "Community",
+  "description": "If you have any questions about the HwameiStor cloud-native local storage system, welcome to join the community to explore this metaverse world dedicated for developers and grow together!",
+  "source": "@site/docs/05community.md",
+  "sourceDirName": ".",
+  "slug": "/05community",
+  "permalink": "/docs/05community",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/05community.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5,
+    "sidebar_label": "Documentation - Community"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "PV and PVC",
+    "permalink": "/docs/04concepts/06pvc"
+  }
+}

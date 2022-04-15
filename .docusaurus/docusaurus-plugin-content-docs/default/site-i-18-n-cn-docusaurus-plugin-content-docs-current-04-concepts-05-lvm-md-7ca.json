@@ -1,0 +1,26 @@
+{
+  "unversionedId": "04concepts/05lvm",
+  "id": "04concepts/05lvm",
+  "title": "05lvm",
+  "description": "LVM 全称为 Logical Volume Manager，即逻辑卷管理器，在磁盘分区和文件系统之间添加一个逻辑层，为文件系统屏蔽下层磁盘分区布局提供一个抽象的盘卷，在盘卷上建立文件系统。",
+  "source": "@site/i18n/cn/docusaurus-plugin-content-docs/current/04concepts/05lvm.md",
+  "sourceDirName": "04concepts",
+  "slug": "/04concepts/05lvm",
+  "permalink": "/cn/docs/04concepts/05lvm",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/04concepts/05lvm.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "04volume",
+    "permalink": "/cn/docs/04concepts/04volume"
+  },
+  "next": {
+    "title": "06pvc",
+    "permalink": "/cn/docs/04concepts/06pvc"
+  }
+}

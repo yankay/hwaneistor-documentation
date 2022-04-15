@@ -1,0 +1,26 @@
+{
+  "unversionedId": "01features/02scheduler",
+  "id": "01features/02scheduler",
+  "title": "HwameiStor Scheduler",
+  "description": "The Scheduler is one of important components of the HwameiStor. It is to automatically schedule the Pod to the correct node which has the associated HwameiStor volume. With the scheduler, the Pod doesn't have to has the NodeAffinity or NodeSelector field to select the node. A scheduler will work for both LVM and Disk volumes.",
+  "source": "@site/docs/01features/02scheduler.md",
+  "sourceDirName": "01features",
+  "slug": "/01features/02scheduler",
+  "permalink": "/docs/01features/02scheduler",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/01features/02scheduler.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Local Disk Manager (LDM)",
+    "permalink": "/docs/01features/01local-disk-manager"
+  },
+  "next": {
+    "title": "DRBD installer",
+    "permalink": "/docs/01features/03DRBD"
+  }
+}

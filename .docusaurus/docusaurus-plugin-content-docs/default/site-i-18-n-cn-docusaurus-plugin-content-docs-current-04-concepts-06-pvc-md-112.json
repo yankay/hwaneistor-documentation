@@ -1,0 +1,26 @@
+{
+  "unversionedId": "04concepts/06pvc",
+  "id": "04concepts/06pvc",
+  "title": "06pvc",
+  "description": "PV（PersistentVolume，持久卷）是对存储资源的抽象，将存储定义为一种容器应用可以使用的资源。PV 由管理员创建和配置，与存储提供商的具体实现直接相关，例如文件存储、块存储、对象存储或 DRBD 等，通过插件式的机制进行管理，供应用访问和使用。除 EmptyDir 类型的存储卷，PV 的生命周期独立于使用它的 Pod。",
+  "source": "@site/i18n/cn/docusaurus-plugin-content-docs/current/04concepts/06pvc.md",
+  "sourceDirName": "04concepts",
+  "slug": "/04concepts/06pvc",
+  "permalink": "/cn/docs/04concepts/06pvc",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/04concepts/06pvc.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "05lvm",
+    "permalink": "/cn/docs/04concepts/05lvm"
+  },
+  "next": {
+    "title": "文档 - 社区",
+    "permalink": "/cn/docs/05community"
+  }
+}

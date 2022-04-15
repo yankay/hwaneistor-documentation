@@ -1,0 +1,26 @@
+{
+  "unversionedId": "04concepts/04volume",
+  "id": "04concepts/04volume",
+  "title": "Volume",
+  "description": "On-disk files in a container are ephemeral, which presents some problems for non-trivial applications when running in containers.",
+  "source": "@site/docs/04concepts/04volume.md",
+  "sourceDirName": "04concepts",
+  "slug": "/04concepts/04volume",
+  "permalink": "/docs/04concepts/04volume",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/04concepts/04volume.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "CR and CRD",
+    "permalink": "/docs/04concepts/03crd"
+  },
+  "next": {
+    "title": "LVM",
+    "permalink": "/docs/04concepts/05lvm"
+  }
+}

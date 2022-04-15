@@ -148,54 +148,78 @@
     "content": "content---markdown-page-393-028",
     "__routeContextModule": "__routeContextModule---markdown-pagecff-dc0"
   },
-  "/docs-cc6": {
+  "/docs-739": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398",
     "__routeContextModule": "__routeContextModule---docsf-53-663"
   },
+  "/docs/01features/00local-storage-810": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-01-features-00-local-storaged-39-32a"
+  },
+  "/docs/01features/01local-disk-manager-601": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-01-features-01-local-disk-managereb-0-e44"
+  },
+  "/docs/01features/02scheduler-029": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-01-features-02-schedulercc-0-c33"
+  },
+  "/docs/01features/03DRBD-650": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-01-features-03-drb-df-9-c-61a"
+  },
+  "/docs/02installation/00prepare-cc0": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-02-installation-00-prepare-23-d-de5"
+  },
+  "/docs/02installation/01helm-chart-209": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-02-installation-01-helm-charte-66-0b6"
+  },
+  "/docs/02installation/02install-c98": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-02-installation-02-install-70-e-8e0"
+  },
+  "/docs/03scenarios-68d": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-03-scenarios-4-f-1-7f8"
+  },
+  "/docs/04concepts/00k8s-store-cdc": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-04-concepts-00-k-8-s-store-9-b-6-907"
+  },
+  "/docs/04concepts/01cas-98f": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-04-concepts-01-cas-2-db-0dd"
+  },
+  "/docs/04concepts/02csi-767": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-04-concepts-02-csi-318-22d"
+  },
+  "/docs/04concepts/03crd-8eb": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-04-concepts-03-crdd-9-c-324"
+  },
+  "/docs/04concepts/04volume-dfc": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-04-concepts-04-volume-596-b94"
+  },
+  "/docs/04concepts/05lvm-cd0": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-04-concepts-05-lvm-484-fd1"
+  },
+  "/docs/04concepts/06pvc-f5d": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-04-concepts-06-pvcf-76-8a5"
+  },
+  "/docs/05community-05e": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-05-community-8-ed-f1d"
+  },
   "/docs/intro-aed": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-intro-0-e-3-be1"
-  },
-  "/docs/local-disk-manager-676": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-local-disk-managere-20-604"
-  },
-  "/docs/local-storage-960": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-local-storagef-20-f4d"
-  },
-  "/docs/tutorial-basics/congratulations-793": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-basics-congratulations-822-958"
-  },
-  "/docs/tutorial-basics/create-a-blog-post-68e": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-basics-create-a-blog-post-533-e85"
-  },
-  "/docs/tutorial-basics/create-a-document-c2d": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-basics-create-a-document-1-e-4-078"
-  },
-  "/docs/tutorial-basics/create-a-page-f44": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-basics-create-a-page-5-c-8-e19"
-  },
-  "/docs/tutorial-basics/deploy-your-site-e46": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-basics-deploy-your-sitef-55-a3f"
-  },
-  "/docs/tutorial-basics/markdown-features-4b7": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-basics-markdown-features-18-c-a79"
-  },
-  "/docs/tutorial-extras/manage-docs-versions-fdd": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-extras-manage-docs-versionsdff-6d4"
-  },
-  "/docs/tutorial-extras/translate-your-site-2d7": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-extras-translate-your-sitee-44-ddf"
   },
   "/-931": {
     "component": "component---site-src-pages-index-jsc-4-f-f99",

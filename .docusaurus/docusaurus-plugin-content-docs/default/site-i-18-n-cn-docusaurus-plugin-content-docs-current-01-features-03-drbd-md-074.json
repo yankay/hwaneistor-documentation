@@ -1,0 +1,26 @@
+{
+  "unversionedId": "01features/03DRBD",
+  "id": "01features/03DRBD",
+  "title": "DRDB 安装器",
+  "description": "DRBD (Distributed Replicated Block Device) 通过 Linux 内核模块和相关脚本构成，用以构建高可用性的集群。其实现方式是通过网络来镜像整个设备，可以把它看作是一种网络 RAID。",
+  "source": "@site/i18n/cn/docusaurus-plugin-content-docs/current/01features/03DRBD.md",
+  "sourceDirName": "01features",
+  "slug": "/01features/03DRBD",
+  "permalink": "/cn/docs/01features/03DRBD",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/01features/03DRBD.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "调度器",
+    "permalink": "/cn/docs/01features/02scheduler"
+  },
+  "next": {
+    "title": "准备工作",
+    "permalink": "/cn/docs/02installation/00prepare"
+  }
+}

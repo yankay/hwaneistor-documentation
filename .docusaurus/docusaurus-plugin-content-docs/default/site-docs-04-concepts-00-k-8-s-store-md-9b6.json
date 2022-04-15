@@ -1,0 +1,26 @@
+{
+  "unversionedId": "04concepts/00k8s-store",
+  "id": "04concepts/00k8s-store",
+  "title": "Kubernetes Storage",
+  "description": "Kubernetes has made several enhancements to support running Stateful Workloads by providing the required abstractions for Platform (or Cluster Administrators) and Application developers. The abstractions ensure that different types of file and block storage (whether ephemeral or persistent, local or remote) are available wherever a container is scheduled (including provisioning/creating, attaching, mounting, unmounting, detaching, and deleting of volumes), storage capacity management (container ephemeral storage usage, volume resizing, etc.), influencing scheduling of containers based on storage (data gravity, availability, etc.), and generic operations on storage (snapshoting, etc.).",
+  "source": "@site/docs/04concepts/00k8s-store.md",
+  "sourceDirName": "04concepts",
+  "slug": "/04concepts/00k8s-store",
+  "permalink": "/docs/04concepts/00k8s-store",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/04concepts/00k8s-store.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Documentation - Scenarios",
+    "permalink": "/docs/03scenarios"
+  },
+  "next": {
+    "title": "CAS",
+    "permalink": "/docs/04concepts/01cas"
+  }
+}

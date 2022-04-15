@@ -1,0 +1,26 @@
+{
+  "unversionedId": "02installation/02install",
+  "id": "02installation/02install",
+  "title": "Independent Installation",
+  "description": "This page explains how you can independently install and deploy HwaweiStor local storage on a Kubernetes node.",
+  "source": "@site/docs/02installation/02install.md",
+  "sourceDirName": "02installation",
+  "slug": "/02installation/02install",
+  "permalink": "/docs/02installation/02install",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02installation/02install.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Deploy by Helm Chart",
+    "permalink": "/docs/02installation/01helm-chart"
+  },
+  "next": {
+    "title": "Documentation - Scenarios",
+    "permalink": "/docs/03scenarios"
+  }
+}

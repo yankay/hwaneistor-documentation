@@ -1,0 +1,26 @@
+{
+  "unversionedId": "04concepts/00k8s-store",
+  "id": "04concepts/00k8s-store",
+  "title": "00k8s-store",
+  "description": "Kubernetes 为容器平台（或集群管理员）和应用开发人员提供了一些增强特性以支持运行有状态的工作负载。这些特性确保了只要调度容器（包括卷的供应/创建、附加、挂载、解除挂载、拆分和删除）、存储容量管理（容器临时存储使用率、卷扩缩容等），都可以使用不同类型的文件和块存储（临时存储或持久化存储、本地存储或远程存储），这会影响基于存储的容器调度（数据重力、可用性等）和快照等常规存储操作。",
+  "source": "@site/i18n/cn/docusaurus-plugin-content-docs/current/04concepts/00k8s-store.md",
+  "sourceDirName": "04concepts",
+  "slug": "/04concepts/00k8s-store",
+  "permalink": "/cn/docs/04concepts/00k8s-store",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/04concepts/00k8s-store.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "文档 - 场景",
+    "permalink": "/cn/docs/03scenarios"
+  },
+  "next": {
+    "title": "01cas",
+    "permalink": "/cn/docs/04concepts/01cas"
+  }
+}

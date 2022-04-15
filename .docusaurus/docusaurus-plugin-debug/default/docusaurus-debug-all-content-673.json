@@ -19,10 +19,424 @@
           "contentPathLocalized": "/Users/alexz/Documents/Github/hwameistor/documentation/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
+              "unversionedId": "01features/00local-storage",
+              "id": "01features/00local-storage",
+              "title": "Local Storage",
+              "description": "Local Storage is one of modules of HwameiStor which is a cloud native local storage system. it aims to provision high performance persistent LVM volume with local access to applications.",
+              "source": "@site/docs/01features/00local-storage.md",
+              "sourceDirName": "01features",
+              "slug": "/01features/00local-storage",
+              "permalink": "/docs/01features/00local-storage",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/01features/00local-storage.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "HwameiStor introduction",
+                "permalink": "/docs/intro"
+              },
+              "next": {
+                "title": "Local Disk Manager (LDM)",
+                "permalink": "/docs/01features/01local-disk-manager"
+              }
+            },
+            {
+              "unversionedId": "01features/01local-disk-manager",
+              "id": "01features/01local-disk-manager",
+              "title": "Local Disk Manager (LDM)",
+              "description": "Local Disk Manager (LDM) is one of modules of HwameiStor. LDM is to simplify the management of disks on nodes. It can abstract the disk on the node into a resource and can be monitored and managed. It's a daemon that will be deployed on each node, then detect the disk on the node, abstract it into local disk (LD) resources and save it to kubernetes.",
+              "source": "@site/docs/01features/01local-disk-manager.md",
+              "sourceDirName": "01features",
+              "slug": "/01features/01local-disk-manager",
+              "permalink": "/docs/01features/01local-disk-manager",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/01features/01local-disk-manager.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Local Storage",
+                "permalink": "/docs/01features/00local-storage"
+              },
+              "next": {
+                "title": "HwameiStor Scheduler",
+                "permalink": "/docs/01features/02scheduler"
+              }
+            },
+            {
+              "unversionedId": "01features/02scheduler",
+              "id": "01features/02scheduler",
+              "title": "HwameiStor Scheduler",
+              "description": "The Scheduler is one of important components of the HwameiStor. It is to automatically schedule the Pod to the correct node which has the associated HwameiStor volume. With the scheduler, the Pod doesn't have to has the NodeAffinity or NodeSelector field to select the node. A scheduler will work for both LVM and Disk volumes.",
+              "source": "@site/docs/01features/02scheduler.md",
+              "sourceDirName": "01features",
+              "slug": "/01features/02scheduler",
+              "permalink": "/docs/01features/02scheduler",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/01features/02scheduler.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Local Disk Manager (LDM)",
+                "permalink": "/docs/01features/01local-disk-manager"
+              },
+              "next": {
+                "title": "DRBD installer",
+                "permalink": "/docs/01features/03DRBD"
+              }
+            },
+            {
+              "unversionedId": "01features/03DRBD",
+              "id": "01features/03DRBD",
+              "title": "DRBD installer",
+              "description": "DRBD (Distributed Replicated Block Device) is composed of Linux kernel modules and related scripts to build high available clusters. It is implemented by mirroring the entire device over the network, which can be thought of as a kind of network RAID.",
+              "source": "@site/docs/01features/03DRBD.md",
+              "sourceDirName": "01features",
+              "slug": "/01features/03DRBD",
+              "permalink": "/docs/01features/03DRBD",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/01features/03DRBD.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "HwameiStor Scheduler",
+                "permalink": "/docs/01features/02scheduler"
+              },
+              "next": {
+                "title": "Prerequisites",
+                "permalink": "/docs/02installation/00prepare"
+              }
+            },
+            {
+              "unversionedId": "02installation/00prepare",
+              "id": "02installation/00prepare",
+              "title": "Prerequisites",
+              "description": "local-storage is a cloud native local storage system, which should be deployed in a Kubernetes cluster with the following requirements:",
+              "source": "@site/docs/02installation/00prepare.md",
+              "sourceDirName": "02installation",
+              "slug": "/02installation/00prepare",
+              "permalink": "/docs/02installation/00prepare",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02installation/00prepare.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "DRBD installer",
+                "permalink": "/docs/01features/03DRBD"
+              },
+              "next": {
+                "title": "Deploy by Helm Chart",
+                "permalink": "/docs/02installation/01helm-chart"
+              }
+            },
+            {
+              "unversionedId": "02installation/01helm-chart",
+              "id": "02installation/01helm-chart",
+              "title": "Deploy by Helm Chart",
+              "description": "Local Storage is a component of HwameiStor and must work with Local Disk Manager module. It's suggested to install by helm-charts.",
+              "source": "@site/docs/02installation/01helm-chart.md",
+              "sourceDirName": "02installation",
+              "slug": "/02installation/01helm-chart",
+              "permalink": "/docs/02installation/01helm-chart",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02installation/01helm-chart.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Prerequisites",
+                "permalink": "/docs/02installation/00prepare"
+              },
+              "next": {
+                "title": "Independent Installation",
+                "permalink": "/docs/02installation/02install"
+              }
+            },
+            {
+              "unversionedId": "02installation/02install",
+              "id": "02installation/02install",
+              "title": "Independent Installation",
+              "description": "This page explains how you can independently install and deploy HwaweiStor local storage on a Kubernetes node.",
+              "source": "@site/docs/02installation/02install.md",
+              "sourceDirName": "02installation",
+              "slug": "/02installation/02install",
+              "permalink": "/docs/02installation/02install",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02installation/02install.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Deploy by Helm Chart",
+                "permalink": "/docs/02installation/01helm-chart"
+              },
+              "next": {
+                "title": "Documentation - Scenarios",
+                "permalink": "/docs/03scenarios"
+              }
+            },
+            {
+              "unversionedId": "03scenarios",
+              "id": "03scenarios",
+              "title": "Applicable scenarios",
+              "description": "HwameiStor provisions two kind of local volumes, LVM and Disk.",
+              "source": "@site/docs/03scenarios.md",
+              "sourceDirName": ".",
+              "slug": "/03scenarios",
+              "permalink": "/docs/03scenarios",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/03scenarios.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4,
+                "sidebar_label": "Documentation - Scenarios"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Independent Installation",
+                "permalink": "/docs/02installation/02install"
+              },
+              "next": {
+                "title": "Kubernetes Storage",
+                "permalink": "/docs/04concepts/00k8s-store"
+              }
+            },
+            {
+              "unversionedId": "04concepts/00k8s-store",
+              "id": "04concepts/00k8s-store",
+              "title": "Kubernetes Storage",
+              "description": "Kubernetes has made several enhancements to support running Stateful Workloads by providing the required abstractions for Platform (or Cluster Administrators) and Application developers. The abstractions ensure that different types of file and block storage (whether ephemeral or persistent, local or remote) are available wherever a container is scheduled (including provisioning/creating, attaching, mounting, unmounting, detaching, and deleting of volumes), storage capacity management (container ephemeral storage usage, volume resizing, etc.), influencing scheduling of containers based on storage (data gravity, availability, etc.), and generic operations on storage (snapshoting, etc.).",
+              "source": "@site/docs/04concepts/00k8s-store.md",
+              "sourceDirName": "04concepts",
+              "slug": "/04concepts/00k8s-store",
+              "permalink": "/docs/04concepts/00k8s-store",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/04concepts/00k8s-store.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Documentation - Scenarios",
+                "permalink": "/docs/03scenarios"
+              },
+              "next": {
+                "title": "CAS",
+                "permalink": "/docs/04concepts/01cas"
+              }
+            },
+            {
+              "unversionedId": "04concepts/01cas",
+              "id": "04concepts/01cas",
+              "title": "CAS",
+              "description": "Container Attached Storage(CAS) is software that includes microservice based storage controllers that are orchestrated by Kubernetes. These storage controllers can run anywhere that Kubernetes can run which means any cloud or even bare metal server or on top of a traditional shared storage system. Critically, the data itself is also accessed via containers as opposed to being stored in an off platform shared scale out storage system. Because CAS leverages a microservices architecture, it keeps the storage solution closely tied to the application bound to the physical storage device, reducing I/O latency.",
+              "source": "@site/docs/04concepts/01cas.md",
+              "sourceDirName": "04concepts",
+              "slug": "/04concepts/01cas",
+              "permalink": "/docs/04concepts/01cas",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/04concepts/01cas.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Kubernetes Storage",
+                "permalink": "/docs/04concepts/00k8s-store"
+              },
+              "next": {
+                "title": "CSI",
+                "permalink": "/docs/04concepts/02csi"
+              }
+            },
+            {
+              "unversionedId": "04concepts/02csi",
+              "id": "04concepts/02csi",
+              "title": "CSI",
+              "description": "CSI is the abbreviation of Container Storage Interface. To have a better understanding of what we're going to do, the first thing we need to know is what the Container Storage Interface is. Currently, there are still some problems for already existing storage subsystem within Kubernetes. Storage driver code is maintained in the Kubernetes core repository which is difficult to test. But beyond that, Kubernetes needs to give permissions to storage vendors to check code into the Kubernetes core repository. Ideally, that should be implemented externally.",
+              "source": "@site/docs/04concepts/02csi.md",
+              "sourceDirName": "04concepts",
+              "slug": "/04concepts/02csi",
+              "permalink": "/docs/04concepts/02csi",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/04concepts/02csi.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "CAS",
+                "permalink": "/docs/04concepts/01cas"
+              },
+              "next": {
+                "title": "CR and CRD",
+                "permalink": "/docs/04concepts/03crd"
+              }
+            },
+            {
+              "unversionedId": "04concepts/03crd",
+              "id": "04concepts/03crd",
+              "title": "CR and CRD",
+              "description": "CRD",
+              "source": "@site/docs/04concepts/03crd.md",
+              "sourceDirName": "04concepts",
+              "slug": "/04concepts/03crd",
+              "permalink": "/docs/04concepts/03crd",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/04concepts/03crd.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "CSI",
+                "permalink": "/docs/04concepts/02csi"
+              },
+              "next": {
+                "title": "Volume",
+                "permalink": "/docs/04concepts/04volume"
+              }
+            },
+            {
+              "unversionedId": "04concepts/04volume",
+              "id": "04concepts/04volume",
+              "title": "Volume",
+              "description": "On-disk files in a container are ephemeral, which presents some problems for non-trivial applications when running in containers.",
+              "source": "@site/docs/04concepts/04volume.md",
+              "sourceDirName": "04concepts",
+              "slug": "/04concepts/04volume",
+              "permalink": "/docs/04concepts/04volume",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/04concepts/04volume.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "CR and CRD",
+                "permalink": "/docs/04concepts/03crd"
+              },
+              "next": {
+                "title": "LVM",
+                "permalink": "/docs/04concepts/05lvm"
+              }
+            },
+            {
+              "unversionedId": "04concepts/05lvm",
+              "id": "04concepts/05lvm",
+              "title": "LVM",
+              "description": "The full name of LVM is Logical Volume Manager. It adds a logical layer between the disk partition and the file system, provides an abstract disk volume for the file system to shield the underlying disk partition layout, and establishes a file system on the disk volume.",
+              "source": "@site/docs/04concepts/05lvm.md",
+              "sourceDirName": "04concepts",
+              "slug": "/04concepts/05lvm",
+              "permalink": "/docs/04concepts/05lvm",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/04concepts/05lvm.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_position": 6
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Volume",
+                "permalink": "/docs/04concepts/04volume"
+              },
+              "next": {
+                "title": "PV and PVC",
+                "permalink": "/docs/04concepts/06pvc"
+              }
+            },
+            {
+              "unversionedId": "04concepts/06pvc",
+              "id": "04concepts/06pvc",
+              "title": "PV and PVC",
+              "description": "The PersistentVolume subsystem provides an API for users and administrators that abstracts details of how storage is provided from how it is consumed. To do this, we introduce two new API resources: PersistentVolume (PV) and PersistentVolumeClaim (PVC). A PersistentVolume (PV) is a piece of storage in the cluster that has been provisioned by an administrator or dynamically provisioned using Storage Classes. It is a resource in the cluster just like a node is a cluster resource. PVs are volume plugins like Volumes, but have a lifecycle independent of any individual Pod that uses the PV. This API object captures the details of the implementation of the storage, be that NFS, iSCSI, or a cloud-provider-specific storage system.",
+              "source": "@site/docs/04concepts/06pvc.md",
+              "sourceDirName": "04concepts",
+              "slug": "/04concepts/06pvc",
+              "permalink": "/docs/04concepts/06pvc",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/04concepts/06pvc.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 7,
+              "frontMatter": {
+                "sidebar_position": 7
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "LVM",
+                "permalink": "/docs/04concepts/05lvm"
+              },
+              "next": {
+                "title": "Documentation - Community",
+                "permalink": "/docs/05community"
+              }
+            },
+            {
+              "unversionedId": "05community",
+              "id": "05community",
+              "title": "Community",
+              "description": "If you have any questions about the HwameiStor cloud-native local storage system, welcome to join the community to explore this metaverse world dedicated for developers and grow together!",
+              "source": "@site/docs/05community.md",
+              "sourceDirName": ".",
+              "slug": "/05community",
+              "permalink": "/docs/05community",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/05community.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5,
+                "sidebar_label": "Documentation - Community"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "PV and PVC",
+                "permalink": "/docs/04concepts/06pvc"
+              }
+            },
+            {
               "unversionedId": "intro",
               "id": "intro",
-              "title": "Tutorial Intro",
-              "description": "Let's discover Docusaurus in less than 5 minutes.",
+              "title": "HwameiStor introduction",
+              "description": "HwameiStor creates a local storage resource pool for centrally managing all disks such as HDD, SSD, and NVMe. It uses the CSI architecture to provide distributed services with local volumes, and provides data persistence capabilities for stateful cloud-native workloads or components.",
               "source": "@site/docs/intro.md",
               "sourceDirName": ".",
               "slug": "/intro",
@@ -36,258 +450,8 @@
               },
               "sidebar": "tutorialSidebar",
               "next": {
-                "title": "Create a Page",
-                "permalink": "/docs/tutorial-basics/create-a-page"
-              }
-            },
-            {
-              "unversionedId": "local-disk-manager",
-              "id": "local-disk-manager",
-              "title": "Local Disk Manager (LDM)",
-              "description": "local-disk-manager (LDM) is a sub module of HwameiStor.",
-              "source": "@site/docs/local-disk-manager.md",
-              "sourceDirName": ".",
-              "slug": "/local-disk-manager",
-              "permalink": "/docs/local-disk-manager",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/local-disk-manager.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Translate your site",
-                "permalink": "/docs/tutorial-extras/translate-your-site"
-              },
-              "next": {
-                "title": "Local Storage Module",
-                "permalink": "/docs/local-storage"
-              }
-            },
-            {
-              "unversionedId": "local-storage",
-              "id": "local-storage",
-              "title": "Local Storage Module",
-              "description": "Introduction",
-              "source": "@site/docs/local-storage.md",
-              "sourceDirName": ".",
-              "slug": "/local-storage",
-              "permalink": "/docs/local-storage",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/local-storage.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Local Disk Manager (LDM)",
-                "permalink": "/docs/local-disk-manager"
-              }
-            },
-            {
-              "unversionedId": "tutorial-basics/congratulations",
-              "id": "tutorial-basics/congratulations",
-              "title": "Congratulations!",
-              "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
-              "source": "@site/docs/tutorial-basics/congratulations.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/congratulations",
-              "permalink": "/docs/tutorial-basics/congratulations",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/congratulations.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 6,
-              "frontMatter": {
-                "sidebar_position": 6
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Deploy your site",
-                "permalink": "/docs/tutorial-basics/deploy-your-site"
-              },
-              "next": {
-                "title": "Manage Docs Versions",
-                "permalink": "/docs/tutorial-extras/manage-docs-versions"
-              }
-            },
-            {
-              "unversionedId": "tutorial-basics/create-a-blog-post",
-              "id": "tutorial-basics/create-a-blog-post",
-              "title": "Create a Blog Post",
-              "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
-              "source": "@site/docs/tutorial-basics/create-a-blog-post.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/create-a-blog-post",
-              "permalink": "/docs/tutorial-basics/create-a-blog-post",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/create-a-blog-post.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 3,
-              "frontMatter": {
-                "sidebar_position": 3
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Create a Document",
-                "permalink": "/docs/tutorial-basics/create-a-document"
-              },
-              "next": {
-                "title": "Markdown Features",
-                "permalink": "/docs/tutorial-basics/markdown-features"
-              }
-            },
-            {
-              "unversionedId": "tutorial-basics/create-a-document",
-              "id": "tutorial-basics/create-a-document",
-              "title": "Create a Document",
-              "description": "Documents are groups of pages connected through:",
-              "source": "@site/docs/tutorial-basics/create-a-document.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/create-a-document",
-              "permalink": "/docs/tutorial-basics/create-a-document",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/create-a-document.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_position": 2
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Create a Page",
-                "permalink": "/docs/tutorial-basics/create-a-page"
-              },
-              "next": {
-                "title": "Create a Blog Post",
-                "permalink": "/docs/tutorial-basics/create-a-blog-post"
-              }
-            },
-            {
-              "unversionedId": "tutorial-basics/create-a-page",
-              "id": "tutorial-basics/create-a-page",
-              "title": "Create a Page",
-              "description": "Add Markdown or React files to src/pages to create a standalone page:",
-              "source": "@site/docs/tutorial-basics/create-a-page.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/create-a-page",
-              "permalink": "/docs/tutorial-basics/create-a-page",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/create-a-page.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Tutorial Intro",
-                "permalink": "/docs/intro"
-              },
-              "next": {
-                "title": "Create a Document",
-                "permalink": "/docs/tutorial-basics/create-a-document"
-              }
-            },
-            {
-              "unversionedId": "tutorial-basics/deploy-your-site",
-              "id": "tutorial-basics/deploy-your-site",
-              "title": "Deploy your site",
-              "description": "Docusaurus is a static-site-generator (also called Jamstack).",
-              "source": "@site/docs/tutorial-basics/deploy-your-site.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/deploy-your-site",
-              "permalink": "/docs/tutorial-basics/deploy-your-site",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/deploy-your-site.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 5,
-              "frontMatter": {
-                "sidebar_position": 5
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Markdown Features",
-                "permalink": "/docs/tutorial-basics/markdown-features"
-              },
-              "next": {
-                "title": "Congratulations!",
-                "permalink": "/docs/tutorial-basics/congratulations"
-              }
-            },
-            {
-              "unversionedId": "tutorial-basics/markdown-features",
-              "id": "tutorial-basics/markdown-features",
-              "title": "Markdown Features",
-              "description": "Docusaurus supports Markdown and a few additional features.",
-              "source": "@site/docs/tutorial-basics/markdown-features.mdx",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/markdown-features",
-              "permalink": "/docs/tutorial-basics/markdown-features",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/markdown-features.mdx",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 4,
-              "frontMatter": {
-                "sidebar_position": 4
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Create a Blog Post",
-                "permalink": "/docs/tutorial-basics/create-a-blog-post"
-              },
-              "next": {
-                "title": "Deploy your site",
-                "permalink": "/docs/tutorial-basics/deploy-your-site"
-              }
-            },
-            {
-              "unversionedId": "tutorial-extras/manage-docs-versions",
-              "id": "tutorial-extras/manage-docs-versions",
-              "title": "Manage Docs Versions",
-              "description": "Docusaurus can manage multiple versions of your docs.",
-              "source": "@site/docs/tutorial-extras/manage-docs-versions.md",
-              "sourceDirName": "tutorial-extras",
-              "slug": "/tutorial-extras/manage-docs-versions",
-              "permalink": "/docs/tutorial-extras/manage-docs-versions",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-extras/manage-docs-versions.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Congratulations!",
-                "permalink": "/docs/tutorial-basics/congratulations"
-              },
-              "next": {
-                "title": "Translate your site",
-                "permalink": "/docs/tutorial-extras/translate-your-site"
-              }
-            },
-            {
-              "unversionedId": "tutorial-extras/translate-your-site",
-              "id": "tutorial-extras/translate-your-site",
-              "title": "Translate your site",
-              "description": "Let's translate docs/intro.md to French.",
-              "source": "@site/docs/tutorial-extras/translate-your-site.md",
-              "sourceDirName": "tutorial-extras",
-              "slug": "/tutorial-extras/translate-your-site",
-              "permalink": "/docs/tutorial-extras/translate-your-site",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-extras/translate-your-site.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_position": 2
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Manage Docs Versions",
-                "permalink": "/docs/tutorial-extras/manage-docs-versions"
-              },
-              "next": {
-                "title": "Local Disk Manager (LDM)",
-                "permalink": "/docs/local-disk-manager"
+                "title": "Local Storage",
+                "permalink": "/docs/01features/00local-storage"
               }
             }
           ],
@@ -299,59 +463,93 @@
               },
               {
                 "type": "category",
-                "label": "Tutorial - Basics",
+                "label": "Documentation - Features",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
                   {
                     "type": "doc",
-                    "id": "tutorial-basics/create-a-page"
+                    "id": "01features/00local-storage"
                   },
                   {
                     "type": "doc",
-                    "id": "tutorial-basics/create-a-document"
+                    "id": "01features/01local-disk-manager"
                   },
                   {
                     "type": "doc",
-                    "id": "tutorial-basics/create-a-blog-post"
+                    "id": "01features/02scheduler"
                   },
                   {
                     "type": "doc",
-                    "id": "tutorial-basics/markdown-features"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "tutorial-basics/deploy-your-site"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "tutorial-basics/congratulations"
+                    "id": "01features/03DRBD"
                   }
                 ]
               },
               {
                 "type": "category",
-                "label": "Tutorial - Extras",
+                "label": "Documentation - Installation",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
                   {
                     "type": "doc",
-                    "id": "tutorial-extras/manage-docs-versions"
+                    "id": "02installation/00prepare"
                   },
                   {
                     "type": "doc",
-                    "id": "tutorial-extras/translate-your-site"
+                    "id": "02installation/01helm-chart"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "02installation/02install"
                   }
                 ]
               },
               {
                 "type": "doc",
-                "id": "local-disk-manager"
+                "id": "03scenarios",
+                "label": "Documentation - Scenarios"
+              },
+              {
+                "type": "category",
+                "label": "Documentation - Concepts",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "04concepts/00k8s-store"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "04concepts/01cas"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "04concepts/02csi"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "04concepts/03crd"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "04concepts/04volume"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "04concepts/05lvm"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "04concepts/06pvc"
+                  }
+                ]
               },
               {
                 "type": "doc",
-                "id": "local-storage"
+                "id": "05community",
+                "label": "Documentation - Community"
               }
             ]
           },

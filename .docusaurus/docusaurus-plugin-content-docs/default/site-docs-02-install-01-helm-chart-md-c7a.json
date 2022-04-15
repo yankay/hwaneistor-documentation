@@ -1,0 +1,26 @@
+{
+  "unversionedId": "02Install/01helm-chart",
+  "id": "02Install/01helm-chart",
+  "title": "Deploy by Helm Chart",
+  "description": "Local Storage is a component of HwameiStor and must work with Local Disk Manager module. It's suggested to install by helm-charts.",
+  "source": "@site/docs/02Install/01helm-chart.md",
+  "sourceDirName": "02Install",
+  "slug": "/02Install/01helm-chart",
+  "permalink": "/docs/02Install/01helm-chart",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02Install/01helm-chart.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Prerequisites",
+    "permalink": "/docs/02Install/00prepare"
+  },
+  "next": {
+    "title": "Applicable scenarios",
+    "permalink": "/docs/03scenarios"
+  }
+}

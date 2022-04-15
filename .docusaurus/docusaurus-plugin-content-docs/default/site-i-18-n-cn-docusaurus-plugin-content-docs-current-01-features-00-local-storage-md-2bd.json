@@ -1,0 +1,26 @@
+{
+  "unversionedId": "01features/00local-storage",
+  "id": "01features/00local-storage",
+  "title": "本地存储",
+  "description": "本地存储是 HwameiStor 的一个模块，它旨在为应用提供高性能的本地持久化 LVM 存储卷。",
+  "source": "@site/i18n/cn/docusaurus-plugin-content-docs/current/01features/00local-storage.md",
+  "sourceDirName": "01features",
+  "slug": "/01features/00local-storage",
+  "permalink": "/cn/docs/01features/00local-storage",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/01features/00local-storage.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "HwameiStor 介绍",
+    "permalink": "/cn/docs/intro"
+  },
+  "next": {
+    "title": "本地数据盘管理 (LDM)",
+    "permalink": "/cn/docs/01features/01local-disk-manager"
+  }
+}

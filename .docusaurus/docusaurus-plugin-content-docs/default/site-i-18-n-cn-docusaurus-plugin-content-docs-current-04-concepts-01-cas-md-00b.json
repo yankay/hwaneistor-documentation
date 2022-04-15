@@ -1,0 +1,26 @@
+{
+  "unversionedId": "04concepts/01cas",
+  "id": "04concepts/01cas",
+  "title": "01cas",
+  "description": "容器附加存储 (Container Attached Storage, CAS) 是一种由 Kubernetes 编排的基于微服务存储控制器的软件存储体系。其存储控制器作为 Kubernetes 集群的一部分在容器中进行管理和运行。这就让 CAS 具有可移植性，可以在任何 Kubernetes 平台上运行，包括任何云平台、裸金属服务器或传统共享存储系统。关键的是数据本身也可以通过容器访问，而不是存储在非平台共享的横向扩展存储系统中。由于 CAS 利用微服务架构，将存储解决方案与绑定到物理存储设备的应用程序保持密切关联，从而减少了 I/O 访问时间。",
+  "source": "@site/i18n/cn/docusaurus-plugin-content-docs/current/04concepts/01cas.md",
+  "sourceDirName": "04concepts",
+  "slug": "/04concepts/01cas",
+  "permalink": "/cn/docs/04concepts/01cas",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/04concepts/01cas.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "00k8s-store",
+    "permalink": "/cn/docs/04concepts/00k8s-store"
+  },
+  "next": {
+    "title": "02csi",
+    "permalink": "/cn/docs/04concepts/02csi"
+  }
+}

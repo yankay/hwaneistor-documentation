@@ -1,0 +1,26 @@
+{
+  "unversionedId": "02Install/02install",
+  "id": "02Install/02install",
+  "title": "02install",
+  "description": "本页说明如何在 Kubernetes 节点独立安装部署 HwaweiStor 本地存储。",
+  "source": "@site/i18n/cn/docusaurus-plugin-content-docs/current/02Install/02install.md",
+  "sourceDirName": "02Install",
+  "slug": "/02Install/",
+  "permalink": "/cn/docs/02Install/",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02Install/02install.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "03DRDB",
+    "permalink": "/cn/docs/01features/03DRDB"
+  },
+  "next": {
+    "title": "准备工作",
+    "permalink": "/cn/docs/02Install/00prepare"
+  }
+}

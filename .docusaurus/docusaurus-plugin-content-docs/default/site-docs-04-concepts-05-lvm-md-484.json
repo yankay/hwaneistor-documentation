@@ -1,0 +1,26 @@
+{
+  "unversionedId": "04concepts/05lvm",
+  "id": "04concepts/05lvm",
+  "title": "LVM",
+  "description": "The full name of LVM is Logical Volume Manager. It adds a logical layer between the disk partition and the file system, provides an abstract disk volume for the file system to shield the underlying disk partition layout, and establishes a file system on the disk volume.",
+  "source": "@site/docs/04concepts/05lvm.md",
+  "sourceDirName": "04concepts",
+  "slug": "/04concepts/05lvm",
+  "permalink": "/docs/04concepts/05lvm",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/04concepts/05lvm.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Volume",
+    "permalink": "/docs/04concepts/04volume"
+  },
+  "next": {
+    "title": "PV and PVC",
+    "permalink": "/docs/04concepts/06pvc"
+  }
+}

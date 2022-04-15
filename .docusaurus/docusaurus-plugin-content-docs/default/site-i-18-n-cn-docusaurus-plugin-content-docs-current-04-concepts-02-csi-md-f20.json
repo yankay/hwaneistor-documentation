@@ -1,0 +1,26 @@
+{
+  "unversionedId": "04concepts/02csi",
+  "id": "04concepts/02csi",
+  "title": "02csi",
+  "description": "CSI 即 Container Storage Interfaces，容器存储接口。目前，Kubernetes 中的存储子系统仍存在一些问题。存储驱动程序代码在 Kubernetes 核心存储库中进行维护，这很难测试。Kubernetes 还需要授予存储供应商许可，便于将代码嵌入 Kubernetes 核心存储库。",
+  "source": "@site/i18n/cn/docusaurus-plugin-content-docs/current/04concepts/02csi.md",
+  "sourceDirName": "04concepts",
+  "slug": "/04concepts/02csi",
+  "permalink": "/cn/docs/04concepts/02csi",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/04concepts/02csi.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "01cas",
+    "permalink": "/cn/docs/04concepts/01cas"
+  },
+  "next": {
+    "title": "03crd",
+    "permalink": "/cn/docs/04concepts/03crd"
+  }
+}

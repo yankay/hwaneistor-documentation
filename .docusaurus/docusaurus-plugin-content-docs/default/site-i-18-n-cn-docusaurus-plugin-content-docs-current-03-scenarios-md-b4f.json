@@ -1,0 +1,27 @@
+{
+  "unversionedId": "03scenarios",
+  "id": "03scenarios",
+  "title": "适用场景",
+  "description": "HwameiStor 提供两种本地数据卷：LVM、Disk。",
+  "source": "@site/i18n/cn/docusaurus-plugin-content-docs/current/03scenarios.md",
+  "sourceDirName": ".",
+  "slug": "/03scenarios",
+  "permalink": "/cn/docs/03scenarios",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/03scenarios.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "sidebar_label": "文档 - 场景"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "独立安装部署",
+    "permalink": "/cn/docs/02installation/02install"
+  },
+  "next": {
+    "title": "00k8s-store",
+    "permalink": "/cn/docs/04concepts/00k8s-store"
+  }
+}
