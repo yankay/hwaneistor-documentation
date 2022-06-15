@@ -14,13 +14,6 @@ This functionality is in alpha and is subject to change. The code is provided as
 
 [Helm](https://helm.sh/) must be installed to use the charts. Please refer to Helm's [documentation](https://helm.sh/docs/) to get started.
 
-```bash
-$ git clone https://github.com/hwameistor/helm-charts.git 
-$ cd helm-charts/charts 
-$ helm install hwameistor -n hwameistor --create-namespace --generate-name
-```
-
-Or
 
 ```bash
 $ helm repo add hwameistor http://hwameistor.io/helm-charts 

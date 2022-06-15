@@ -15,14 +15,6 @@ sidebar_position: 2
 必须先安装 [Helm](https://helm.sh/) 才能使用 chart，请参阅 Helm [官方文档](https://helm.sh/docs/)。
 
 ```bash
-$ git clone https://github.com/hwameistor/helm-charts.git 
-$ cd helm-charts/charts 
-$ helm install hwameistor -n hwameistor --create-namespace --generate-name
-```
-
-或
-
-```bash
 $ helm repo add hwameistor http://hwameistor.io/helm-charts 
 $ helm install hwameistor/hwameistor -n hwameistor --create-namespace --generate-name
 ```
