@@ -6,8 +6,7 @@ sidebar_position: 1
 
 local-storage is a cloud native local storage system, which should be deployed in a Kubernetes cluster with the following requirements:
 
-- LocalDisk Version: `4.0+`
 - Kubernetes Version: `1.18+`
 - Node
-  - Free disks
+  - Free disks(recommend: > 200GB)
   - LVM (optional)
